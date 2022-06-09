@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: none;
+    
+
+}
+
+.negro {
+    color: black;
+}
+
+h3 {
+    color: red;
+}
+body{
+    background: #E5E5E5;
+}
+header {
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 60px 20px 20px;
+
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: white;
+
+}
+
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;    
+}
+
+.card1 {
+    background-image: url(/img/delivery.jpg);    
+    width: 490px;
+    height: 350px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card2 {   
+    background-image: url(/img/PizzaFalling.jpg);
+    background-repeat: no-repeat;
+    background-position:90% 70%;
+     border-radius: 10px;
+    font-family: 'Roboto';
+    width: 490px;
+    height: 350px;
+    color: black;
+    background-color: white;
+}
+
+#podio {
+    font-size: 28px;
+    text-align: center;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+h4 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    padding-left: 18px;
+}
+
+.toppizzas {      
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.listpodio {
+    font-size: 22px;
+    font-weight: 700;    
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.contenedorfooter{
+     
+    height: 150px;
+    background: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    
+}
+
+#logofooter {
+    height: 80px;
+    padding-right: 30px;
+}
